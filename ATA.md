@@ -11,7 +11,7 @@ POST https://api.spatially.com/ads/science/ata
 
 Headers:
   Content-Type: application/json
-  Authorization: Bearer {ACCESS_TOKEN_GENERATED}
+  Authorization: Bearer ACCESS_TOKEN_GENERATED_FROM_API
 
 Body:
   {

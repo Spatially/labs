@@ -17,7 +17,7 @@ Headers:
   Content-Type: application/json
 
 Body:
-  { "code": "{YOUR_APPLICATION_CODE}", "key": "{YOUR_APPLICATION_KEY}" }
+  { "code": "YOUR_APPLICATION_CODE", "key": "YOUR_APPLICATION_KEY" }
 ```
 
 _Response_
