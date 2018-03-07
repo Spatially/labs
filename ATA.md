@@ -52,10 +52,10 @@ This parameter dictates what time of day you want the observations to be taken f
 
 #### locationType
 
-This parameter defines what type of locations you wish to generate the Active Trade Area from. By default it is `Home` locations. Other possible values are:
+This parameter defines what type of locations you wish to generate the Active Trade Area from. By default it is `["Home"]` locations. Other possible values are:
 
-* Work
-* HomeAndWork
+* ["Work"]
+* ["Home", "Work"]
 
 #### geoFence
 
