@@ -1,10 +1,10 @@
 # Spatially API
 
-Once you have created an account at [Spatially Labs](https://labs.spatially.com) you should be able to see your API code & key. Your API key is secret and make sure to store it in a secure place.
+Once you have created an account on [Spatially Labs](https://labs.spatially.com) you should be able to see your API code & key. Your API key is secret. Make sure to store it in a secure place.
 
 ## Generate an access token
 
-In order to generate an access token that can be used to access Spatially Labs services, you must first generate an access token, this is done by making an HTTP call to our API gateway with your API code and key.
+In order to gain access to Spatially Labs services, you must first generate an access token, this is done by making an HTTP call to our API gateway with your API code and key.
 
 Below is an example:
 
