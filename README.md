@@ -8,7 +8,7 @@ This repository contains API documentation and guides on how to use Spatially La
 
 We highly recommend you use one of our supported SDKs:
 
-* [Go SDK](https://spatially.com/labs)
+* [Go SDK](https://github.com/Spatially/go-spatially)
 * Javascript - Coming Soon
 * Python - Coming Soon
 * Java - Coming Soon
