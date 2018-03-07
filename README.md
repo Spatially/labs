@@ -14,9 +14,10 @@ We highly recommend you use one of our supported SDKs:
 * Java - Coming Soon
 * R - Coming Soon
 
-We are always adding new SDK support. If you don't see your language of choice, submit an Issue. If you have written API bindings and want to get added to the API list, reach out as well.
+We are always adding new SDK support. If you don't see your language of choice, submit an Issue. If you have written API bindings and want to get added to the SDK list, reach out as well.
 
 ## Guides
 
 * [Generate access token](https://github.com/Spatially/labs/blob/master/API.md)
 * [Active Trade Area](https://github.com/Spatially/labs/blob/master/ATA.md)
+* [Spatially DB](https://github.com/Spatially/labs/blob/master/DB.md)

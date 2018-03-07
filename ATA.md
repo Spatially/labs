@@ -17,7 +17,8 @@ Body:
   {
     "pointWKT": "POINT(-71.064156780428 42.35862883483673)",
     "timeOfDay": "AllDay",
-    "locationType": ["Home"]
+    "locationType": ["Home"],
+    "geoFence": false
    }
 ```
 
@@ -55,3 +56,7 @@ This parameter defines what type of locations you wish to generate the Active Tr
 
 * Work
 * HomeAndWork
+
+#### geoFence
+
+This parameter controls whether the API returns a feature collection of Polygons or a collection of Points with a radiusInKms property. It is a different representation of the ATA usually used for geofence analysis and Google/Facebook network targeting.
