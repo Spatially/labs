@@ -8,7 +8,7 @@ For more information about SpatiallyDB, please visit [Spatially Labs](https://sp
 
 _Request_
 
-```json
+```
 POST https://api.spatially.com/spatialdb/layer
 
 Headers:
@@ -23,7 +23,7 @@ Body:
 
 _Response_
 
-```json
+```
 {
   "id": "...",
   "name": "layer-name"
@@ -34,7 +34,7 @@ _Response_
 
 _Request_
 
-```json
+```
 GET https://api.spatially.com/spatialdb/layer/{id}
 
 Headers:
@@ -44,7 +44,7 @@ Headers:
 
 _Response_
 
-```json
+```
 {
   "id": "...",
   "name": "layer-name"
@@ -55,7 +55,7 @@ _Response_
 
 _Request_
 
-```json
+```
 GET https://api.spatially.com/spatialdb/layers
 
 Headers:
@@ -65,7 +65,7 @@ Headers:
 
 _Response_
 
-```json
+```
 [
   {
     "id": "...",
@@ -78,7 +78,7 @@ _Response_
 
 _Request_
 
-```json
+```
 DELETE https://api.spatially.com/spatialdb/layer/{id}
 
 Headers:
@@ -92,7 +92,7 @@ Headers:
 
 _Request_
 
-```json
+```
 POST https://api.spatially.com/spatialdb/feature
 
 Headers:
@@ -121,7 +121,7 @@ Body:
 
 _Response_
 
-```json
+```
 {
   "id": "..."
 }
@@ -131,7 +131,7 @@ _Response_
 
 _Request_
 
-```json
+```
 GET https://api.spatially.com/spatialdb/feature/{id}
 
 Headers:
@@ -141,7 +141,7 @@ Headers:
 
 _Response_
 
-```json
+```
 {
   "type": "Feature",
   "properties": {
@@ -158,7 +158,7 @@ _Response_
 
 _Request_
 
-```json
+```
 POST https://api.spatially.com/spatialdb/features
 
 Headers:
@@ -173,7 +173,7 @@ Body:
 
 _Response_
 
-```json
+```
 [
   {
     "type": "Feature",
@@ -192,7 +192,7 @@ _Response_
 
 _Request_
 
-```json
+```
 POST https://api.spatially.com/spatialdb/features
 
 Headers:
@@ -221,7 +221,7 @@ Body:
 
 _Response_
 
-```json
+```
 [
   {
     "type": "Feature",
@@ -240,7 +240,7 @@ _Response_
 
 _Request_
 
-```json
+```
 PUT https://api.spatially.com/spatialdb/feature/{id}
 
 Headers:
@@ -257,7 +257,7 @@ Body:
 
 _Response_
 
-```json
+```
 {
   "type": "Feature",
   "properties": {
@@ -275,7 +275,7 @@ _Response_
 
 _Request_
 
-```json
+```
 DELETE https://api.spatially.com/spatialdb/feature/{id}
 
 Headers:
