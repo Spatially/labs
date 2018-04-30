@@ -7,6 +7,12 @@ Spatially Grid gives you access to a variety of datasets processed and updated d
 
 ```
 GET http://localhost:8000/grid/pop/point?lon=-71.05878365218564&lat=42.355270748343685&radius=150
+
+Headers:
+  Content-Type: application/json
+  Authorization: Bearer ACCESS_TOKEN_GENERATED_FROM_API
+
+Response:
 {
     "result": {
         "residents": 174,
@@ -23,6 +29,12 @@ GET http://localhost:8000/grid/pop/point?lon=-71.05878365218564&lat=42.355270748
 
 ```
 GET http://localhost:8000/grid/stops?wkt=POINT(-71.05878365218564 42.355270748343685)&radius=150
+
+Headers:
+  Content-Type: application/json
+  Authorization: Bearer ACCESS_TOKEN_GENERATED_FROM_API
+
+Response:
 {
     "result": [
         {
@@ -129,6 +141,12 @@ GET http://localhost:8000/grid/stops?wkt=POINT(-71.05878365218564 42.35527074834
 
 ```
 GET http://localhost:8000/grid/distance?lon=-71.05878365218564&lat=42.355270748343685&radius=150
+
+Headers:
+  Content-Type: application/json
+  Authorization: Bearer ACCESS_TOKEN_GENERATED_FROM_API
+
+Response:
 {
     "result": {
         "d0": 2577,
@@ -147,6 +165,12 @@ GET http://localhost:8000/grid/distance?lon=-71.05878365218564&lat=42.3552707483
 
 ```
 GET http://localhost:8000/grid/highlights?lon=-71.05878365218564&lat=42.355270748343685&radius=150
+
+Headers:
+  Content-Type: application/json
+  Authorization: Bearer ACCESS_TOKEN_GENERATED_FROM_API
+
+Response:
 {
     "result": {
         "total": 6,
