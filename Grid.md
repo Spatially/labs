@@ -6,7 +6,7 @@ Spatially Grid gives you access to a variety of datasets processed and updated d
 ## Population
 
 ```
-GET http://localhost:8000/grid/pop/point?lon=-71.05878365218564&lat=42.355270748343685&radius=150
+GET https://api.spatially.com/grid/pop/point?lon=-71.05878365218564&lat=42.355270748343685&radius=150
 
 Headers:
   Content-Type: application/json
@@ -30,7 +30,7 @@ Response:
 Activity is an hourly breakdown of all the stops observed at a location for any given radius allowing you to determine the most popular times of day people are observed within that radius.
 
 ```
-GET http://localhost:8000/grid/stops?wkt=POINT(-71.05878365218564 42.355270748343685)&radius=150
+GET https://api.spatially.com/grid/stops?wkt=POINT(-71.05878365218564 42.355270748343685)&radius=150
 
 Headers:
   Content-Type: application/json
@@ -144,7 +144,7 @@ Response:
 Distance Sensitivity is a measure of how far people typically travel to a location from their home address (0-1, 1-2, 2-5, 5-10, 10-15, 15-20, 20-25 miles).
 
 ```
-GET http://localhost:8000/grid/distance?lon=-71.05878365218564&lat=42.355270748343685&radius=150
+GET https://api.spatially.com/grid/distance?lon=-71.05878365218564&lat=42.355270748343685&radius=150
 
 Headers:
   Content-Type: application/json
@@ -168,7 +168,7 @@ Response:
 ## Highlights
 
 ```
-GET http://localhost:8000/grid/highlights?lon=-71.05878365218564&lat=42.355270748343685&radius=150
+GET https://api.spatially.com/grid/highlights?lon=-71.05878365218564&lat=42.355270748343685&radius=150
 
 Headers:
   Content-Type: application/json
