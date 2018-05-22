@@ -25,6 +25,28 @@ Response:
 }
 ```
 
+## Trade Area Population
+
+```
+POST https://api.spatially.com/grid/pop
+
+Headers:
+  Content-Type: application/json
+  Authorization: Bearer ACCESS_TOKEN_GENERATED_FROM_API
+  
+ Request Body:
+   {"featureCollection": { "features": [...] } }
+   
+ Response:
+   {
+      "residents":155717,
+      "workers":114552,
+      "housing":1270794000,
+      "housingMeanValue":1215303000,
+      "housingMedianValue":83819,
+      "housingSumValue":93448
+   }
+
 ## Activity
 
 Activity is an hourly breakdown of all the stops observed at a location for any given radius allowing you to determine the most popular times of day people are observed within that radius.
